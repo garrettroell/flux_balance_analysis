@@ -99,8 +99,10 @@ const ModelTabSwitcher = () => {
       });
       modelName = 'S.cerevisiae';
       fetchModelData(
-        'https://browser-fba.herokuapp.com/scerevisiae_reactions_T',
-        'https://browser-fba.herokuapp.com/scerevisiae_metabolites_T'
+        'https://fba-server.garrettroell.com/scerevisiae_reactions_T',
+        'https://fba-server.garrettroell.com/scerevisiae_metabolites_T'
+        // 'https://browser-fba.herokuapp.com/scerevisiae_reactions_T',
+        // 'https://browser-fba.herokuapp.com/scerevisiae_metabolites_T'
       );
     }
 

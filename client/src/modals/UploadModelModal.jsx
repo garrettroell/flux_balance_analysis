@@ -67,7 +67,8 @@ const UploadModelModal = ({ onClose }) => {
     if (fileText !== '') {
       axios({
         method: 'post',
-        url: 'https://browser-fba.herokuapp.com/upload_model',
+        url: 'https://fba-server/upload_model',
+        // url: 'https://browser-fba.herokuapp.com/upload_model',
         data: { fileText: fileText },
       })
         .then(res => {

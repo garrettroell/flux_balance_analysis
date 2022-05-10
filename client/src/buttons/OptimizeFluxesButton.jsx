@@ -24,7 +24,8 @@ const OptimizeFluxesButton = () => {
     });
     axios({
       method: 'post',
-      url: 'https://browser-fba.herokuapp.com/optimize_model',
+      url: 'https://fba-server.garrettroell.com/optimize_model',
+      // url: 'https://browser-fba.herokuapp.com/optimize_model',
       // url: 'http://localhost:8000/optimize_model',
       data: {
         reactionData: modelData.reactions,

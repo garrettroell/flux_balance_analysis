@@ -13,6 +13,7 @@ origins = [
     "http://fluxbalanceanalysis.com",
     "https://fluxbalanceanalysis.com",
     "https://fba.garrettroell.com",
+    "https://flux-balance-analysis.web.app",
     "http://localhost",
     "http://localhost:3000",
     "http://localhost:8080",
