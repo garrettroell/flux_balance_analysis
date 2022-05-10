@@ -1,5 +1,5 @@
 import cobra
-import cobra.test
+# import cobra.test
 import pandas as pd
 import json
 from post_request_to_data import *
