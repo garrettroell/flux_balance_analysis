@@ -74,8 +74,10 @@ const ModelTabSwitcher = () => {
       });
       modelName = 'E.coli core';
       fetchModelData(
-        'https://browser-fba.herokuapp.com/ecoli_reactions_T',
-        'https://browser-fba.herokuapp.com/ecoli_metabolites_T'
+        'https://fba-server.garrettroell.com/ecoli_reactions_T',
+        'https://fba-server.garrettroell.com/ecoli_metabolites_T'
+        // 'https://browser-fba.herokuapp.com/ecoli_reactions_T',
+        // 'https://browser-fba.herokuapp.com/ecoli_metabolites_T'
       );
     }
 
