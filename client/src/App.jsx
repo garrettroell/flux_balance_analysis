@@ -5,7 +5,7 @@ import Fonts from "./theme/Fonts";
 import GenomeScaleTheme from "./theme/GenomeScaleTheme";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
-import HowItWorksPage from "./howItWorksPage/HowItWorksPage";
+// import HowItWorksPage from "./howItWorksPage/HowItWorksPage";
 import HomePage from "./homePage/HomePage";
 import ContactPage from "./contactPage/ContactPage";
 import LicensePage from "./licensePage/LicensePage";
@@ -40,7 +40,7 @@ function App() {
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="/license" element={<LicensePage />} />
                 <Route path="/background" element={<BackgroundPage />} />
-                <Route path="/how-it-works" element={<HowItWorksPage />} />
+                {/* <Route path="/how-it-works" element={<HowItWorksPage />} /> */}
               </Routes>
             </BrowserRouter>
           </ModelDataContext.Provider>

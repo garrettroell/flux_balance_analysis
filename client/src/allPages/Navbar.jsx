@@ -43,30 +43,16 @@ const NavBar = () => {
       >
         <Box maxWidth={isLargerThan845 ? '1024px' : '575px'} mx="auto" px="20px">
           <HStack spacing="auto" py="10px">
-            <HStack _hover={{ color: 'orange.200' }}>
-              <Link href="/" fontSize="0px">
-                home page
-                <Icon
-                  color="white"
-                  w={12}
-                  h={12}
-                  as={FaMicroscope}
-                  _hover={{ color: 'orange.200' }}
-                >
-                  home page
-                </Icon>
-              </Link>
-              <Link href="/" style={{ textDecoration: 'none' }}>
-                <Heading
-                  color="white"
-                  fontWeight="bold"
-                  fontSize={isLargerThan845 ? '4xl' : 'xl'}
-                  _hover={{ color: 'orange.200' }}
-                >
+          
+            {/* <HStack _hover={{ color: 'purple' }}> */}
+              <Link href="/" fontSize="0px" _hover={{ color: '#FEEBC855' }}>
+                
+                <Heading color="white" fontWeight="bold" fontSize={isLargerThan845 ? '4xl' : 'xl'} _hover={{ color: '#FEEBC8' }}>
                   Flux Balance Analysis
+                  {/* <Icon color="white" w={9.5} h={9.5} mt="2px" as={FaMicroscope} /> Flux Balance Analysis */}
                 </Heading>
               </Link>
-            </HStack>
+            {/* </HStack> */}
             <HStack spacing="20px">
               <Button
                 variant="outline"
@@ -112,7 +98,7 @@ const NavBar = () => {
                       Background
                     </Link>
                   </MenuItem>
-                  <MenuItem>
+                  {/* <MenuItem>
                     <Link
                       w="100%"
                       href="/how-it-works"
@@ -120,7 +106,7 @@ const NavBar = () => {
                     >
                       How it works
                     </Link>
-                  </MenuItem>
+                  </MenuItem> */}
                   <MenuItem>
                     <Link
                       w="100%"

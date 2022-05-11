@@ -19,15 +19,15 @@ const LicensePage = () => {
   return (
     <Box sx={gradientBackgroundStyle(colorMode)}>
       <NavBar />
-      <Box maxWidth={isLargerThan845 ? '1024px' : '575px'} mx="auto" px="20px" pt="30px">
+      <Box maxWidth={isLargerThan845 ? '1024px' : '575px'} mx="auto" px="20px" pt={isLargerThan845 ? '75px' : '40px'}>
         <Stack direction="column">
           <Heading>License</Heading>
           <Text py="30px">
             The code in this project is open source. Feel free to copy and
             modify the code in any way you'd like. It is licensed under the GNU
             general public license version 2. Find the code here:{' '}
-            <Link href="https://github.com/garrettroell" isExternal>
-              https://github.com/garrettroell
+            <Link href="https://github.com/garrettroell/flux_balance_analysis" isExternal>
+              https://github.com/garrettroell/flux_balance_analysis
               <ExternalLinkIcon mx="2px" />
             </Link>
           </Text>
